@@ -1,0 +1,9 @@
+coffee_machine
+cup_glass
+cup_green
+cup_paper
+cup_yellow
+plate_1
+plate_2
+Readme.txt
+tray

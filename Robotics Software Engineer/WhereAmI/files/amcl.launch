@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <!-- TODO: Add nodes here -->
+
+  <!-- Map Server -->
+  <!--The map_server node provides map data as a ROS service to other nodes such as the amcl node. Here, map_server node will locate the map you created in the Map Setup step and send it out as the map data-->
+  <arg name="map_file" default="$(find my_robot)/maps/map.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+  <!-- AMCL Node -->
+  <!--Takes odometry and laser scan data to perform the AMCL localization-->
+  <node name="amcl" pkg="amcl" type="amcl" output="screen">
+    <remap from="scan" to="my_robot/laser/scan"/>
+    <!--Connect the world (map frame) with the robot (odom frame) -->
+    <param name="odom_frame_id" value="odom"/>
+    <param name="odom_model_type" value="diff-corrected"/>
+    <param name="base_frame_id" value="robot_footprint"/>
+    <param name="global_frame_id" value="map"/>
+
+    <!-- Define initial pose -->
+    <param name="initial_pose_x" value="0"/>
+    <param name="initial_pose_y" value="0"/>
+    <param name="initial_pose_a" value="-1.5707"/>
+
+    <!-- Tune parameters -->
+    <!-- Time with which to post-date the transform that is published, to indicate that this transform is valid into the future -->
+    <param name="transform_tolerance" value="0.2"/>
+    <!-- Number of filter updates required before resampling -->
+    <param name="resample_interval" value="1"/>
+
+    <!-- Minimum allowed number of particles -->
+    <param name="min_particles" value="100"/>
+    <!-- Maximum allowed number of particles -->
+    <param name="max_particles" value="6000"/>
+
+    <!-- Rotational movement required before performing a filter update -->
+    <param name="update_min_a" value="pi/8.0"/>
+    <!-- Translational movement required before performing a filter update -->
+    <param name="update_min_d" value="0.05"/>
+        
+    <!-- Specifies the expected noise in odometry's rotation estimate from the rotational component of the robot's motion -->
+    <param name="odom_alpha1" value="0.02"/>
+    <!-- Specifies the expected noise in odometry's rotation estimate from the translational component of the robot's motion -->
+    <param name="odom_alpha2" value="0.02"/>
+    <!-- Specifies the expected noise in odometry's translation estimate from the translational component of the robot's motion -->
+    <param name="odom_alpha3" value="0.02"/>
+    <!-- Specifies the expected noise in odometry's translation estimate from the rotational component of the robot's motion -->
+    <param name="odom_alpha4" value="0.02"/>
+
+    <!-- Minimum scan range to be considered; -1.0 will cause the laser's reported minimum range to be used -->
+    <param name="laser_min_range" value="0.1"/>
+    <!-- Maximum scan range to be considered; -1.0 will cause the laser's reported maximum range to be used -->
+    <param name="laser_max_range" value="10"/>
+    <!-- How many evenly-spaced beams in each scan to be used when updating the filter -->
+    <param name="laser_max_beams" value="30"/>
+    <!-- Mixture weight for the z_hit part of the model -->
+    <param name="laser_z_hit" value="0.95"/>
+    <!-- Mixture weight for the z_rand part of the model -->
+    <param name="laser_z_rand" value="0.05"/>
+
+  </node>
+
+  <!-- Move Base -->
+  <!-- Define a navigation goal position for robot in the map, and the robot will navigate to that goal position -->
+  <!-- Move Base utilizes a costmap - where each part of the map is divided into which area is occupied, like walls or obstacles, -->
+  <!-- and which area is unoccupied. As the robot moves around, a local costmap, in relation to the global costmap, -->
+  <!-- keeps getting updated allowing the package to define a continuous path for the robot to move along -->
+  <node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
+    <remap from="scan" to="my_robot/laser/scan"/>
+    <!-- Use the Params to Drive the Robot -->
+    <param name="base_global_planner" value="navfn/NavfnROS" />
+    <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
+    <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find my_robot)/config/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find my_robot)/config/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find my_robot)/config/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find my_robot)/config/base_local_planner_params.yaml" command="load" />
+  </node>
+
+</launch>
