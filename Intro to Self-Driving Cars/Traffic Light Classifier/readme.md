@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Traffic Light Classifier
-In this project, you’ll use your knowledge of computer vision techniques to build a classifier for images of traffic lights! You'll be given a dataset of traffic light images in which one of three lights is illuminated: red, yellow, or green.
+In this project, youâ€™ll use your knowledge of computer vision techniques to build a classifier for images of traffic lights! You'll be given a dataset of traffic light images in which one of three lights is illuminated: red, yellow, or green.
 
 
 <img src="images/all-lights.png" width="500" height="172"> 
@@ -71,3 +71,6 @@ Your project will be evaluated by a Udacity reviewer according to the same Proje
 
 ## Submission
 Once you have completed the notebook, make sure you've run every cell, and then submit your project from your workspace. Pressing the submit button zips all the files in the workspace and submits them for grading!
+
+## Note
+traffic_light_images does not contain all images on git due to space limitation
