@@ -44,7 +44,6 @@ Directory Structure
 GoChaseIt                                      # Go Chase It Project
 ├── setupRobot.sh                              # Shell script to setup catkin_ws
 ├── files                                      # All the project files used by setupRobot.sh to setup catkin_ws
-│   │   │   ├── model.config
 │   ├── model                                  # 3rd party and my_ball model files
 │   │   ├── 3DGEMS
 │   │   ├── my_ball
@@ -63,7 +62,7 @@ GoChaseIt                                      # Go Chase It Project
 │   ├── robot_description.launch
 │   ├── world.launch
 ├── images                                     # Video capture of result
-│   ├── submit.mp4
+│   ├── submit_15fps.mp4
 ├── launchRobot.sh                             # Shell script to launch my_robot in Gazebo to load both the world and plugins
 ├── launchBallChaser.sh                        # Shell script to launch ball_chaser and process_image nodes
 ├── visualize.sh                               # Shell script to visualize the robot’s camera images
@@ -116,7 +115,7 @@ GoChaseIt                                      # Go Chase It Project
 │   │   │   ├── CMakeLists.txt                 # compiler instructions
 │   │   │   ├── package.xml                    # package info
 ├── images                                     # Video capture of result
-│   ├── submit.mp4
+│   ├── submit_15fps.mp4
 ├── launchRobot.sh                             # Shell script to launch my_robot in Gazebo to load both the world and plugins
 ├── launchBallChaser.sh                        # Shell script to launch ball_chaser and process_image nodes
 ├── visualize.sh                               # Shell script to visualize the robot’s camera images
