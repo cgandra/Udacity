@@ -1,0 +1,10 @@
+figurine_1
+lamp_table_large
+picture_frame_large_10
+picture_frame_large_8
+picture_frame_large_9
+Readme.txt
+vase_blue
+vase_large_2
+vase_large_3
+vase_violet
