@@ -6,6 +6,8 @@
 # Home Service Robot
 Project 5 of Udacity Robotics Software Engineer Nanodegree Program
 
+https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/HomeServiceRobot/images/home_service_20fps.mp4
+
 <video width="480" height="320" controls="controls">
   <source src="images/home_service_20fps.mp4" type="video/mp4">
 </video>
@@ -166,6 +168,8 @@ Directory Structure
      <source src="images/test_navigation_20fps.mp4" type="video/mp4">
    </video>
 
+   https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/HomeServiceRobot/images/test_navigation_20fps.mp4
+
 4. Pick Objects
    * On terminal
    ``` 
@@ -182,6 +186,8 @@ Directory Structure
      <source src="images/add_markers.mp4" type="video/mp4">
    </video>
 
+   https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/HomeServiceRobot/images/add_markers.mp4
+   
 6. Home Service Robot
    * On terminal
    ``` 
@@ -191,3 +197,5 @@ Directory Structure
    <video width="480" height="320" controls="controls">
       <source src="images/home_service_20fps.mp4" type="video/mp4">
    </video>
+
+   https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/HomeServiceRobot/images/home_service_20fps.mp4
