@@ -1,9 +1,7 @@
 # Go Chase It
 Project 2 of Udacity Robotics Software Engineer Nanodegree Program
 
-<video width="480" height="320" controls="controls">
-  <source src="images/submit.mp4" type="video/mp4">
-</video>
+https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/Go%20Chase%20It/images/submit_15fps.mp4
 
 ## Overview
 In this project, you should create two ROS packages inside your catkin_ws/src: 
