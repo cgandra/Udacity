@@ -1,6 +1,8 @@
 # Go Chase It
 Project 2 of Udacity Robotics Software Engineer Nanodegree Program
 
+https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/Go%20Chase%20It/images/submit_15fps.mp4
+
 <video src="https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/Go%20Chase%20It/images/submit_15fps.mp4" controls="controls" style="max-width: 480px;">
 </video>
 
