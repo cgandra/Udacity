@@ -26,7 +26,10 @@ http://www.pointclouds.org/downloads/windows.html
 ### MAC
 
 http://www.pointclouds.org/downloads/macosx.html
+
 http://www.pointclouds.org/documentation/tutorials/installing_homebrew.php
 
+### Note
+src/sensors/data/pcd does not contain all pcd data on git due to space limitation
 
 
