@@ -1,0 +1,314 @@
+(fcnd) root@6d6c492747cf:/home/workspace/FCND-Motion-Planning# python run.py  --cfg=cfgs/mp_3.yaml --method=vox_map
+North offset = -316, east offset = -445
+North offset = -316, east offset = -445
+Motion Planner Setup Time: 0.4419758379999621s
+Offline Mode planning
+Logs/TLog.txt
+Logs/NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.39745   37.79248    0.     ], position [-122.3974518   37.7924811    0.181    ], local position [ 0.12102329 -0.15926824 -0.181     ]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (316, 445, 5) (454, 536, 18)
+Voxel Start and Goal:  (63, 89, 1) (90, 107, 4)
+Found a path.
+Path Search Time: 2.440190646000019s
+Path Len: 28, Pruned Path Len: 14
+[[-1, 0, 5, 0], [34, 35, 5, 0], [49, 50, 20, 0], [54, 55, 20, 0], [59, 55, 20, 0], [64, 60, 20, 0], [69, 60, 20, 0], [74, 65, 20, 0], [84, 65, 20, 0], [89, 70, 20, 0], [94, 70, 20, 0], [99, 75, 20, 0], [119, 75, 20, 0], [134, 90, 20, 0]]
+Logs/TLog.txt
+Logs/NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+LPC-TakeOff:  0.1418783813714981 5.0
+LPC-TakeOff:  0.39203954488039017 5.0
+LPC-TakeOff:  0.8201365123192469 5.0
+LPC-TakeOff:  1.6866918007532756 5.0
+LPC-TakeOff:  8.42356280485789 5.0
+LPC-TakeOff:  20.623454252878826 5.0
+LPC-TakeOff:  38.342706044514976 5.0
+LPC-TakeOff:  54.031426747639976 5.0
+LPC-TakeOff:  69.02696990966797 5.0
+LPC-TakeOff:  82.02651468912761 5.0
+LPC-TakeOff:  94.34766896565755 5.0
+LPC-TakeOff:  104.75857798258464 5.0
+LPC-TakeOff:  113.8109614054362 5.0
+LPC-TakeOff:  121.94775899251302 5.0
+LPC-TakeOff:  128.72698974609375 5.0
+LPC-TakeOff:  134.7209676106771 5.0
+LPC-TakeOff:  139.55782063802084 5.0
+LPC-TakeOff:  143.64996337890625 5.0
+LPC-TakeOff:  146.7549845377604 5.0
+LPC-TakeOff:  149.17325337727866 5.0
+LPC-TakeOff:  150.76907857259116 5.0
+LPC-TakeOff:  151.7046915690104 5.0
+LPC-TakeOff:  151.95767211914062 5.0
+LPC-TakeOff:  151.60985310872397 5.0
+LPC-TakeOff:  150.69259134928384 5.0
+LPC-TakeOff:  149.18966166178384 5.0
+LPC-TakeOff:  147.24220275878906 5.0
+LPC-TakeOff:  144.7451171875 5.0
+LPC-TakeOff:  141.9142100016276 5.0
+LPC-TakeOff:  138.55713399251303 5.0
+LPC-TakeOff:  135.00074259440103 5.0
+LPC-TakeOff:  131.1306355794271 5.0
+LPC-TakeOff:  127.38792673746745 5.0
+LPC-TakeOff:  123.57572174072266 5.0
+LPC-TakeOff:  120.00242360432942 5.0
+LPC-TakeOff:  116.34794108072917 5.0
+LPC-TakeOff:  112.90327962239583 5.0
+LPC-TakeOff:  109.40004475911458 5.0
+LPC-TakeOff:  106.08357493082683 5.0
+LPC-TakeOff:  102.75393422444661 5.0
+LPC-TakeOff:  99.53879038492839 5.0
+LPC-TakeOff:  96.28387451171875 5.0
+LPC-TakeOff:  93.13925679524739 5.0
+LPC-TakeOff:  89.99350229899089 5.0
+LPC-TakeOff:  87.00052388509114 5.0
+LPC-TakeOff:  83.98604075113933 5.0
+LPC-TakeOff:  81.12099965413411 5.0
+LPC-TakeOff:  78.29576110839844 5.0
+LPC-TakeOff:  75.57703145345052 5.0
+LPC-TakeOff:  72.89686838785808 5.0
+LPC-TakeOff:  70.22035471598308 5.0
+LPC-TakeOff:  67.6604715983073 5.0
+LPC-TakeOff:  65.07529958089192 5.0
+LPC-TakeOff:  62.617329915364586 5.0
+LPC-TakeOff:  60.0877571105957 5.0
+LPC-TakeOff:  57.70502217610677 5.0
+LPC-TakeOff:  55.262725830078125 5.0
+LPC-TakeOff:  52.96971766153971 5.0
+LPC-TakeOff:  50.620253245035805 5.0
+LPC-TakeOff:  48.41842524210612 5.0
+LPC-TakeOff:  46.203697204589844 5.0
+LPC-TakeOff:  44.034881591796875 5.0
+LPC-TakeOff:  41.91208012898763 5.0
+LPC-TakeOff:  39.796791076660156 5.0
+LPC-TakeOff:  37.817883809407554 5.0
+LPC-TakeOff:  35.785213470458984 5.0
+LPC-TakeOff:  33.87565485636393 5.0
+LPC-TakeOff:  31.91675631205241 5.0
+LPC-TakeOff:  30.076162974039715 5.0
+LPC-TakeOff:  28.180987040201824 5.0
+LPC-TakeOff:  26.388282140096027 5.0
+LPC-TakeOff:  24.53066571553548 5.0
+LPC-TakeOff:  22.769622802734375 5.0
+LPC-TakeOff:  20.946421941121418 5.0
+LPC-TakeOff:  19.232264200846355 5.0
+LPC-TakeOff:  17.491641362508137 5.0
+LPC-TakeOff:  15.847562789916992 5.0
+LPC-TakeOff:  14.157675425211588 5.0
+LPC-TakeOff:  12.553055763244629 5.0
+LPC-TakeOff:  10.918278694152832 5.0
+LPC-TakeOff:  9.380952676137289 5.0
+LPC-TakeOff:  7.801960468292236 5.0
+LPC-TakeOff:  6.32266887029012 5.0
+LPC-TakeOff:  4.94708776473999 5.0
+waypoint transition
+target position [-1, 0, 5, 0]
+waypoint transition
+target position [34, 35, 5, 0]
+waypoint transition
+target position [49, 50, 20, 0]
+waypoint transition
+target position [54, 55, 20, 0]
+waypoint transition
+target position [59, 55, 20, 0]
+waypoint transition
+target position [64, 60, 20, 0]
+waypoint transition
+target position [69, 60, 20, 0]
+waypoint transition
+target position [74, 65, 20, 0]
+waypoint transition
+target position [84, 65, 20, 0]
+waypoint transition
+target position [89, 70, 20, 0]
+waypoint transition
+target position [94, 70, 20, 0]
+waypoint transition
+target position [99, 75, 20, 0]
+waypoint transition
+target position [119, 75, 20, 0]
+waypoint transition
+target position [134, 90, 20, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-122.3964447   37.7936837   15.052    ], local position [133.71835327  89.52374268 -15.0460186 ]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 72.54210983400003s
+Offline Mode planning
+Logs/TLog.txt
+Logs/NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-122.3964446   37.7936834   14.955    ], local position [134.04535377  87.94973209 -14.955     ]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (450, 533, 18) (666, 598, 20)
+Voxel Start and Goal:  (90, 106, 4) (133, 119, 5)
+Found a path.
+Path Search Time: 3.108631237000054s
+Path Len: 44, Pruned Path Len: 13
+[[134, 85, 20, 0], [149, 85, 20, 0], [164, 100, 20, 0], [199, 100, 20, 0], [204, 105, 25, 0], [284, 105, 25, 0], [314, 135, 25, 0], [319, 135, 25, 0], [324, 140, 25, 0], [329, 140, 25, 0], [334, 145, 25, 0], [344, 145, 25, 0], [349, 150, 25, 0]]
+Logs/TLog.txt
+Logs/NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+LPC-TakeOff:  15.059966087341309 20.0
+LPC-TakeOff:  15.215705394744873 20.0
+LPC-TakeOff:  15.49576727549235 20.0
+LPC-TakeOff:  16.142314275105793 20.0
+LPC-TakeOff:  16.971797307332356 20.0
+LPC-TakeOff:  17.904977798461914 20.0
+LPC-TakeOff:  18.815003712972004 20.0
+LPC-TakeOff:  19.634668986002605 20.0
+waypoint transition
+target position [134, 85, 20, 0]
+waypoint transition
+target position [149, 85, 20, 0]
+waypoint transition
+target position [164, 100, 20, 0]
+waypoint transition
+target position [199, 100, 20, 0]
+waypoint transition
+target position [204, 105, 25, 0]
+waypoint transition
+target position [284, 105, 25, 0]
+waypoint transition
+target position [314, 135, 25, 0]
+waypoint transition
+target position [319, 135, 25, 0]
+waypoint transition
+target position [324, 140, 25, 0]
+waypoint transition
+target position [329, 140, 25, 0]
+waypoint transition
+target position [334, 145, 25, 0]
+waypoint transition
+target position [344, 145, 25, 0]
+waypoint transition
+target position [349, 150, 25, 0]
+landing transition
+^[[24~global home [-122.3974533   37.7924804    0.       ], position [-122.3957575   37.7956206    3.063    ], local position [349.1416626  150.61882019  -3.03249168]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 59.839356169999974s
+Offline Mode planning
+Logs/TLog.txt
+Logs/NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-122.3957563   37.7956217    3.089    ], local position [349.49069515 147.16045199  -3.089     ]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (665, 592, 6) (914, 250, 81)
+Voxel Start and Goal:  (133, 118, 5) (182, 50, 17)
+Found a path.
+Path Search Time: 42.962729696s
+Path Len: 71, Pruned Path Len: 28
+[[349, 145, 25, 0], [349, 135, 25, 0], [354, 130, 30, 0], [354, 100, 30, 0], [394, 60, 70, 0], [404, 60, 70, 0], [409, 55, 75, 0], [409, 40, 75, 0], [414, 35, 80, 0], [524, -75, 80, 0], [529, -80, 85, 0], [554, -105, 85, 0], [554, -110, 85, 0], [559, -115, 85, 0], [559, -120, 85, 0], [564, -125, 85, 0], [564, -130, 85, 0], [569, -135, 85, 0], [569, -145, 85, 0], [574, -150, 85, 0], [574, -155, 85, 0], [579, -160, 85, 0], [579, -165, 85, 0], [584, -170, 85, 0], [584, -175, 85, 0], [589, -180, 85, 0], [589, -190, 85, 0], [594, -195, 85, 0]]
+Logs/TLog.txt
+Logs/NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+LPC-TakeOff:  3.2276875972747803 25.0
+LPC-TakeOff:  3.461135983467102 25.0
+LPC-TakeOff:  3.8474787871042886 25.0
+LPC-TakeOff:  4.703019936879476 25.0
+LPC-TakeOff:  5.821721076965332 25.0
+LPC-TakeOff:  7.01477575302124 25.0
+LPC-TakeOff:  8.25596841176351 25.0
+LPC-TakeOff:  9.471903800964355 25.0
+LPC-TakeOff:  10.741382916768393 25.0
+LPC-TakeOff:  11.945968627929688 25.0
+LPC-TakeOff:  13.176079750061035 25.0
+LPC-TakeOff:  14.33098570505778 25.0
+LPC-TakeOff:  15.52187728881836 25.0
+LPC-TakeOff:  16.650224367777508 25.0
+LPC-TakeOff:  17.82040532430013 25.0
+LPC-TakeOff:  18.937845865885418 25.0
+LPC-TakeOff:  20.116076787312824 25.0
+LPC-TakeOff:  21.272693634033203 25.0
+LPC-TakeOff:  22.46228853861491 25.0
+LPC-TakeOff:  23.66296323140462 25.0
+LPC-TakeOff:  24.73166338602702 25.0
+waypoint transition
+target position [349, 145, 25, 0]
+waypoint transition
+target position [349, 135, 25, 0]
+waypoint transition
+target position [354, 130, 30, 0]
+waypoint transition
+target position [354, 100, 30, 0]
+waypoint transition
+target position [394, 60, 70, 0]
+waypoint transition
+target position [404, 60, 70, 0]
+waypoint transition
+target position [409, 55, 75, 0]
+waypoint transition
+target position [409, 40, 75, 0]
+waypoint transition
+target position [414, 35, 80, 0]
+waypoint transition
+target position [524, -75, 80, 0]
+waypoint transition
+target position [529, -80, 85, 0]
+waypoint transition
+target position [554, -105, 85, 0]
+waypoint transition
+target position [554, -110, 85, 0]
+waypoint transition
+target position [559, -115, 85, 0]
+waypoint transition
+target position [559, -120, 85, 0]
+waypoint transition
+target position [564, -125, 85, 0]
+waypoint transition
+target position [564, -130, 85, 0]
+waypoint transition
+target position [569, -135, 85, 0]
+waypoint transition
+target position [569, -145, 85, 0]
+waypoint transition
+target position [574, -150, 85, 0]
+waypoint transition
+target position [574, -155, 85, 0]
+waypoint transition
+target position [579, -160, 85, 0]
+waypoint transition
+target position [579, -165, 85, 0]
+waypoint transition
+target position [584, -170, 85, 0]
+waypoint transition
+target position [584, -175, 85, 0]
+waypoint transition
+target position [589, -180, 85, 0]
+waypoint transition
+target position [589, -190, 85, 0]
+waypoint transition
+target position [594, -195, 85, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-122.399644    37.7978246   77.95     ], local position [ 593.79394531 -194.73916626  -77.9515686 ]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 96.08198824500005s

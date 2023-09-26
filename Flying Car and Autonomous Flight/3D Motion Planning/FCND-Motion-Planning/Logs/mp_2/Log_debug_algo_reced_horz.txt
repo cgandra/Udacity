@@ -1,0 +1,226 @@
+North offset = -316, east offset = -445
+Namespace(cfg='cfgs\\mp_2.yaml', grid_goal=array([-122.39733567,   37.79256955,   -3.        ]), method='reced_horz') [ 9.99999539 10.00193099  3.        ]
+North offset = -316, east offset = -445
+North offset = -316, east offset = -445
+Motion Planner Setup Time: 1.501635s
+Local Start and Goal:  (316, 445, 5) (693, 183, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.01907459999999994s
+Path Len: 98, Pruned Path Len: 19
+[[0, 0, 5, 0], [20, -20, 5, 0], [25, -20, 5, 0], [30, -15, 5, 0], [80, -15, 5, 0], [140, -75, 5, 0], [140, -85, 5, 0], [135, -90, 5, 0], [135, -120, 5, 0], [245, -230, 5, 0], [245, -270, 5, 0], [255, -280, 5, 0], [255, -290, 5, 0], [260, -295, 5, 0], [300, -295, 5, 0], [330, -265, 5, 0], [370, -265, 5, 0], [375, -260, 5, 0], [377, -262, 5, 0]]
+Replan:  False (316, 445, 5) (336, 425, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (336, 425, 5) (341, 425, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (341, 425, 5) (346, 430, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (346, 430, 5) (396, 430, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (396, 430, 5) (456, 370, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (456, 370, 5) (456, 360, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (456, 360, 5) (451, 355, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (451, 355, 5) (451, 325, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  True (451, 325, 5) (561, 215, 5)
+Local Start and Goal:  (451, 325, 5) (482, 294, 5)
+Voxel Start and Goal:  (451, 325, 5) (482, 294, 5)
+Found a path.
+Path Search Time: 0.1589741s
+Path Len: 31, Pruned Path Len: 6
+Replan:  True (482, 294, 5) (561, 215, 5)
+Local Start and Goal:  (482, 294, 5) (557, 219, 5)
+Voxel Start and Goal:  (482, 294, 5) (557, 219, 5)
+Found a path.
+Path Search Time: 0.12795859999999992s
+Path Len: 55, Pruned Path Len: 17
+Replan:  False (557, 219, 5) (561, 215, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (561, 215, 5) (561, 175, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (561, 175, 5) (571, 165, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (571, 165, 5) (571, 155, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (571, 155, 5) (576, 150, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  True (576, 150, 5) (616, 150, 5)
+Local Start and Goal:  (576, 150, 5) (616, 150, 34)
+Voxel Start and Goal:  (576, 150, 5) (616, 150, 34)
+Found a path.
+Path Search Time: 0.010111599999999887s
+Path Len: 22, Pruned Path Len: 7
+Replan:  True (616, 150, 34) (646, 180, 5)
+Local Start and Goal:  (616, 150, 34) (646, 180, 34)
+Voxel Start and Goal:  (616, 150, 34) (646, 180, 34)
+Found a path.
+Path Search Time: 0.005485299999999915s
+Path Len: 16, Pruned Path Len: 2
+Replan:  True (646, 180, 34) (686, 180, 5)
+Local Start and Goal:  (646, 180, 34) (667, 180, 5)
+Voxel Start and Goal:  (646, 180, 34) (667, 180, 5)
+Found a path.
+Path Search Time: 0.05253249999999987s
+Path Len: 26, Pruned Path Len: 5
+Replan:  False (667, 180, 5) (686, 180, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (686, 180, 5) (691, 185, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (691, 185, 5) (693, 183, 5)
+Path Len: 2, Pruned Path Len: 2
+Voxels Plot Elapsed Time: 501.9043403s
+Local Start and Goal:  (691, 183, 5) (616, 536, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.03509780000001683s
+Path Len: 74, Pruned Path Len: 13
+[[375, -262, 5, 0], [325, -212, 5, 0], [325, -182, 5, 0], [320, -177, 5, 0], [320, -172, 5, 0], [315, -167, 5, 0], [315, -62, 5, 0], [310, -57, 5, 0], [310, -2, 5, 0], [305, 3, 5, 0], [305, 58, 5, 0], [300, 63, 5, 0], [300, 91, 5, 0]]
+Replan:  True (691, 183, 5) (641, 233, 5)
+Local Start and Goal:  (691, 183, 5) (641, 233, 34)
+Voxel Start and Goal:  (691, 183, 5) (641, 233, 34)
+Found a path.
+Path Search Time: 0.07613790000004883s
+Path Len: 31, Pruned Path Len: 9
+Replan:  True (641, 233, 34) (641, 263, 5)
+Local Start and Goal:  (641, 233, 34) (641, 257, 5)
+Voxel Start and Goal:  (641, 233, 34) (641, 257, 5)
+Found a path.
+Path Search Time: 0.07608249999998407s
+Path Len: 19, Pruned Path Len: 9
+Replan:  False (641, 257, 5) (641, 263, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (641, 263, 5) (636, 268, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (636, 268, 5) (636, 273, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  True (636, 273, 5) (631, 278, 5)
+Local Start and Goal:  (636, 273, 5) (631, 278, 9)
+Voxel Start and Goal:  (636, 273, 5) (631, 278, 9)
+Found a path.
+Path Search Time: 0.006562799999983326s
+Path Len: 5, Pruned Path Len: 5
+Replan:  True (631, 278, 9) (631, 383, 5)
+Local Start and Goal:  (631, 278, 9) (631, 327, 5)
+Voxel Start and Goal:  (631, 278, 9) (631, 327, 5)
+Found a path.
+Path Search Time: 0.03390389999992749s
+Path Len: 28, Pruned Path Len: 5
+Replan:  True (631, 327, 5) (631, 383, 5)
+Local Start and Goal:  (631, 327, 5) (631, 383, 9)
+Voxel Start and Goal:  (631, 327, 5) (631, 383, 9)
+Found a path.
+Path Search Time: 0.04422259999989819s
+Path Len: 30, Pruned Path Len: 4
+Replan:  True (631, 383, 9) (626, 388, 5)
+Local Start and Goal:  (631, 383, 9) (627, 387, 5)
+Voxel Start and Goal:  (631, 383, 9) (627, 387, 5)
+Found a path.
+Path Search Time: 0.00541740000005575s
+Path Len: 5, Pruned Path Len: 4
+Replan:  False (627, 387, 5) (626, 388, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  True (626, 388, 5) (626, 443, 5)
+Local Start and Goal:  (626, 388, 5) (626, 443, 9)
+Voxel Start and Goal:  (626, 388, 5) (626, 443, 9)
+Found a path.
+Path Search Time: 0.04198830000007092s
+Path Len: 29, Pruned Path Len: 4
+Replan:  True (626, 443, 9) (621, 448, 5)
+Local Start and Goal:  (626, 443, 9) (621, 448, 9)
+Voxel Start and Goal:  (626, 443, 9) (621, 448, 9)
+Found a path.
+Path Search Time: 0.004428899999993519s
+Path Len: 4, Pruned Path Len: 2
+Replan:  True (621, 448, 9) (621, 503, 5)
+Local Start and Goal:  (621, 448, 9) (621, 457, 5)
+Voxel Start and Goal:  (621, 448, 9) (621, 457, 5)
+Found a path.
+Path Search Time: 0.00963739999997415s
+Path Len: 8, Pruned Path Len: 5
+Replan:  True (621, 457, 5) (621, 503, 5)
+Local Start and Goal:  (621, 457, 5) (621, 503, 9)
+Voxel Start and Goal:  (621, 457, 5) (621, 503, 9)
+Found a path.
+Path Search Time: 0.03464819999999236s
+Path Len: 25, Pruned Path Len: 4
+Replan:  True (621, 503, 9) (616, 508, 5)
+Local Start and Goal:  (621, 503, 9) (616, 508, 9)
+Voxel Start and Goal:  (621, 503, 9) (616, 508, 9)
+Found a path.
+Path Search Time: 0.004232199999933073s
+Path Len: 4, Pruned Path Len: 2
+Replan:  True (616, 508, 9) (616, 536, 5)
+Local Start and Goal:  (616, 508, 9) (616, 517, 5)
+Voxel Start and Goal:  (616, 508, 9) (616, 517, 5)
+Found a path.
+Path Search Time: 0.008652699999970537s
+Path Len: 7, Pruned Path Len: 6
+Replan:  False (616, 517, 5) (616, 536, 5)
+Path Len: 2, Pruned Path Len: 2
+Voxels Plot Elapsed Time: 662.9412886999999s
+Local Start and Goal:  (616, 534, 5) (377, 504, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.02545749999990221s
+Path Len: 52, Pruned Path Len: 11
+[[300, 89, 5, 0], [290, 79, 5, 0], [275, 79, 5, 0], [270, 74, 5, 0], [215, 74, 5, 0], [210, 69, 5, 0], [155, 69, 5, 0], [150, 64, 5, 0], [80, 64, 5, 0], [75, 59, 5, 0], [61, 59, 5, 0]]
+Replan:  True (616, 534, 5) (606, 524, 5)
+Local Start and Goal:  (616, 534, 5) (606, 524, 14)
+Voxel Start and Goal:  (616, 534, 5) (606, 524, 14)
+Found a path.
+Path Search Time: 0.01072599999997692s
+Path Len: 7, Pruned Path Len: 3
+Replan:  True (606, 524, 14) (591, 524, 5)
+Local Start and Goal:  (606, 524, 14) (591, 524, 14)
+Voxel Start and Goal:  (606, 524, 14) (591, 524, 14)
+Found a path.
+Path Search Time: 0.009937899999840738s
+Path Len: 9, Pruned Path Len: 2
+Replan:  True (591, 524, 14) (586, 519, 5)
+Local Start and Goal:  (591, 524, 14) (586, 519, 17)
+Voxel Start and Goal:  (591, 524, 14) (586, 519, 17)
+Found a path.
+Path Search Time: 0.004562999999961903s
+Path Len: 4, Pruned Path Len: 4
+Replan:  True (586, 519, 17) (531, 519, 5)
+Local Start and Goal:  (586, 519, 17) (531, 519, 9)
+Voxel Start and Goal:  (586, 519, 17) (531, 519, 20)
+Found a path.
+Path Search Time: 0.0382009999998445s
+Path Len: 29, Pruned Path Len: 7
+Replan:  True (531, 519, 20) (526, 514, 5)
+Local Start and Goal:  (531, 519, 20) (526, 514, 9)
+Voxel Start and Goal:  (531, 519, 20) (526, 514, 20)
+Found a path.
+Path Search Time: 0.003635000000031141s
+Path Len: 4, Pruned Path Len: 2
+Replan:  True (526, 514, 20) (471, 514, 5)
+Local Start and Goal:  (526, 514, 20) (484, 514, 5)
+Voxel Start and Goal:  (526, 514, 20) (484, 514, 5)
+Found a path.
+Path Search Time: 0.05555400000002919s
+Path Len: 27, Pruned Path Len: 10
+Replan:  False (484, 514, 5) (471, 514, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  True (471, 514, 5) (466, 509, 5)
+Local Start and Goal:  (471, 514, 5) (466, 509, 21)
+Voxel Start and Goal:  (471, 514, 5) (466, 509, 21)
+Found a path.
+Path Search Time: 0.013206199999785895s
+Path Len: 10, Pruned Path Len: 6
+Replan:  True (466, 509, 21) (396, 509, 5)
+Local Start and Goal:  (466, 509, 21) (424, 509, 5)
+Voxel Start and Goal:  (466, 509, 21) (424, 509, 5)
+Found a path.
+Path Search Time: 0.049439099999972314s
+Path Len: 30, Pruned Path Len: 4
+Replan:  False (424, 509, 5) (396, 509, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (396, 509, 5) (391, 504, 5)
+Path Len: 2, Pruned Path Len: 2
+Replan:  False (391, 504, 5) (377, 504, 5)
+Path Len: 2, Pruned Path Len: 2
+Voxels Plot Elapsed Time: 531.4935709999997s

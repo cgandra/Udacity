@@ -1,0 +1,719 @@
+North offset = -316, east offset = -445
+North offset = -316, east offset = -445
+North offset = -316, east offset = -445
+Motion Planner Setup Time: 1.5610084000000002s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.39745   37.79248    0.     ], position [-1.22397448e+02  3.77924794e+01  8.60000000e-02], local position [-0.06560518  0.15010618 -0.086     ]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (316, 445, 5) (381, 308, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.011780599999999808s
+Path Len: 33, Pruned Path Len: 11
+[[0, 0, 5, 0], [20, -20, 5, 0], [20, -25, 5, 0], [15, -30, 5, 0], [15, -90, 5, 0], [60, -135, 5, 0], [61, -135, 5, 0], [62, -136, 5, 0], [63, -136, 5, 0], [64, -137, 5, 0], [65, -137, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+Replan:  False (316, 445, 5) (336, 425, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [0, 0, 5, 0]
+waypoint transition
+target position [20, -20, 5, 0]
+Replan:  False (335, 426, 5) (336, 420, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [20, -25, 5, 0]
+Replan:  False (337, 420, 5) (331, 415, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [15, -30, 5, 0]
+Replan:  True (331, 415, 5) (331, 355, 5)
+Local Start and Goal:  (331, 415, 5) (331, 355, 18)
+Voxel Start and Goal:  (331, 415, 5) (331, 355, 18)
+Found a path.
+Path Search Time: 2.678169699999998s
+Path Len: 32, Pruned Path Len: 16
+Sending waypoints to simulator ...
+waypoint transition
+target position [15, -32, 5, 0]
+waypoint transition
+target position [15, -34, 7, 0]
+waypoint transition
+target position [15, -42, 7, 0]
+waypoint transition
+target position [15, -44, 9, 0]
+waypoint transition
+target position [15, -52, 9, 0]
+waypoint transition
+target position [15, -54, 11, 0]
+waypoint transition
+target position [15, -60, 11, 0]
+waypoint transition
+target position [15, -62, 13, 0]
+waypoint transition
+target position [15, -70, 13, 0]
+waypoint transition
+target position [15, -72, 15, 0]
+waypoint transition
+target position [15, -76, 15, 0]
+waypoint transition
+target position [15, -80, 19, 0]
+waypoint transition
+target position [15, -88, 19, 0]
+waypoint transition
+target position [15, -89, 18, 0]
+waypoint transition
+target position [15, -90, 18, 0]
+Replan:  True (331, 355, 18) (376, 310, 5)
+Local Start and Goal:  (331, 355, 18) (372, 314, 5)
+Voxel Start and Goal:  (331, 355, 18) (372, 314, 5)
+Found a path.
+Path Search Time: 2.520528100000007s
+Path Len: 28, Pruned Path Len: 6
+Sending waypoints to simulator ...
+waypoint transition
+target position [53, -128, 18, 0]
+waypoint transition
+target position [53, -130, 18, 0]
+waypoint transition
+target position [55, -132, 16, 0]
+waypoint transition
+target position [55, -132, 6, 0]
+waypoint transition
+target position [56, -131, 5, 0]
+Replan:  False (371, 314, 6) (376, 310, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [60, -135, 5, 0]
+Replan:  False (375, 310, 5) (377, 310, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [61, -135, 5, 0]
+Replan:  False (376, 310, 5) (378, 309, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [62, -136, 5, 0]
+Replan:  False (377, 309, 5) (379, 309, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [63, -136, 5, 0]
+Replan:  False (378, 309, 5) (380, 308, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [64, -137, 5, 0]
+Replan:  False (379, 309, 5) (381, 308, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [65, -137, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22398996e+02  3.77930682e+01  4.70000000e-02], local position [ 6.53077011e+01 -1.37180771e+02 -4.70925197e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 88.8639879s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22398996e+02  3.77930690e+01  8.70000000e-02], local position [ 6.44307390e+01 -1.36247406e+02 -8.70000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (380, 309, 5) (277, 190, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.007882500000008008s
+Path Len: 43, Pruned Path Len: 12
+[[64, -136, 5, 0], [54, -146, 5, 0], [49, -146, 5, 0], [39, -136, 5, 0], [-11, -136, 5, 0], [-16, -141, 5, 0], [-16, -186, 5, 0], [-26, -196, 5, 0], [-26, -246, 5, 0], [-36, -256, 5, 0], [-38, -256, 5, 0], [-39, -255, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+Replan:  False (380, 309, 5) (370, 299, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [64, -136, 5, 0]
+waypoint transition
+target position [54, -146, 5, 0]
+Replan:  False (370, 299, 5) (365, 299, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [49, -146, 5, 0]
+Replan:  False (365, 298, 5) (355, 309, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [39, -136, 5, 0]
+Replan:  False (355, 309, 5) (305, 309, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-11, -136, 5, 0]
+Replan:  False (306, 309, 5) (300, 304, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-16, -141, 5, 0]
+Replan:  False (299, 305, 5) (300, 259, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-16, -186, 5, 0]
+Replan:  True (300, 260, 5) (290, 249, 5)
+Local Start and Goal:  (300, 260, 5) (295, 254, 5)
+Voxel Start and Goal:  (300, 260, 5) (295, 254, 5)
+Found a path.
+Path Search Time: 0.18864249999998606s
+Path Len: 5, Pruned Path Len: 5
+Sending waypoints to simulator ...
+waypoint transition
+target position [-18, -187, 5, 0]
+waypoint transition
+target position [-18, -189, 5, 0]
+waypoint transition
+target position [-20, -191, 5, 0]
+waypoint transition
+target position [-21, -191, 5, 0]
+Replan:  False (296, 254, 5) (290, 249, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-26, -196, 5, 0]
+Replan:  False (290, 250, 5) (290, 199, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-26, -246, 5, 0]
+Replan:  True (290, 200, 5) (280, 189, 5)
+Local Start and Goal:  (290, 200, 5) (285, 194, 5)
+Voxel Start and Goal:  (290, 200, 5) (285, 194, 5)
+Found a path.
+Path Search Time: 0.20118919999998752s
+Path Len: 5, Pruned Path Len: 5
+Sending waypoints to simulator ...
+waypoint transition
+target position [-28, -247, 5, 0]
+waypoint transition
+target position [-28, -249, 5, 0]
+waypoint transition
+target position [-30, -251, 5, 0]
+waypoint transition
+target position [-31, -251, 5, 0]
+Replan:  False (286, 194, 5) (280, 189, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-36, -256, 5, 0]
+Replan:  False (280, 189, 5) (278, 189, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-38, -256, 5, 0]
+Replan:  False (279, 188, 5) (277, 190, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-39, -255, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22400317e+02  3.77921258e+01  5.40000000e-02], local position [-3.94449425e+01 -2.54710297e+02 -1.92765445e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 54.59833859999999s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22400317e+02  3.77921261e+01  8.20000000e-02], local position [-4.09303890e+01 -2.51856997e+02 -8.20000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (275, 193, 5) (91, 458, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.009108900000001086s
+Path Len: 70, Pruned Path Len: 14
+[[-41, -252, 5, 0], [-81, -252, 5, 0], [-96, -237, 5, 0], [-96, -202, 5, 0], [-106, -192, 5, 0], [-121, -192, 5, 0], [-171, -142, 5, 0], [-171, -137, 5, 0], [-166, -132, 5, 0], [-161, -132, 5, 0], [-126, -97, 5, 0], [-126, -82, 5, 0], [-221, 13, 5, 0], [-225, 13, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+Replan:  False (275, 193, 5) (235, 193, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-41, -252, 5, 0]
+waypoint transition
+target position [-81, -252, 5, 0]
+Replan:  True (236, 193, 5) (220, 208, 5)
+Local Start and Goal:  (236, 193, 5) (220, 208, 26)
+Voxel Start and Goal:  (236, 193, 5) (220, 208, 26)
+Found a path.
+Path Search Time: 2.0233723999999995s
+Path Len: 14, Pruned Path Len: 7
+Sending waypoints to simulator ...
+waypoint transition
+target position [-90, -242, 15, 0]
+waypoint transition
+target position [-94, -242, 19, 0]
+waypoint transition
+target position [-94, -242, 25, 0]
+waypoint transition
+target position [-96, -240, 27, 0]
+waypoint transition
+target position [-96, -238, 27, 0]
+waypoint transition
+target position [-96, -237, 26, 0]
+Replan:  True (220, 207, 27) (220, 243, 5)
+Local Start and Goal:  (220, 207, 27) (220, 243, 26)
+Voxel Start and Goal:  (220, 207, 27) (220, 243, 26)
+Found a path.
+Path Search Time: 1.2222874000000274s
+Path Len: 20, Pruned Path Len: 4
+Sending waypoints to simulator ...
+waypoint transition
+target position [-96, -204, 27, 0]
+waypoint transition
+target position [-96, -203, 26, 0]
+waypoint transition
+target position [-96, -202, 26, 0]
+Replan:  True (220, 243, 27) (210, 253, 5)
+Local Start and Goal:  (220, 243, 27) (210, 253, 26)
+Voxel Start and Goal:  (220, 243, 27) (210, 253, 26)
+Found a path.
+Path Search Time: 0.6017573999999968s
+Path Len: 7, Pruned Path Len: 3
+Sending waypoints to simulator ...
+waypoint transition
+target position [-106, -192, 27, 0]
+waypoint transition
+target position [-106, -192, 26, 0]
+Replan:  True (210, 253, 27) (195, 253, 5)
+Local Start and Goal:  (210, 253, 27) (195, 253, 9)
+Voxel Start and Goal:  (210, 253, 27) (195, 253, 9)
+Found a path.
+Path Search Time: 1.1451643000000047s
+Path Len: 13, Pruned Path Len: 6
+Sending waypoints to simulator ...
+waypoint transition
+target position [-110, -192, 27, 0]
+waypoint transition
+target position [-120, -192, 17, 0]
+waypoint transition
+target position [-120, -192, 11, 0]
+waypoint transition
+target position [-121, -192, 10, 0]
+waypoint transition
+target position [-121, -192, 9, 0]
+Replan:  True (196, 253, 10) (145, 303, 5)
+Local Start and Goal:  (196, 253, 10) (184, 265, 5)
+Voxel Start and Goal:  (196, 253, 10) (184, 265, 5)
+Found a path.
+Path Search Time: 0.6492787999999905s
+Path Len: 9, Pruned Path Len: 4
+Sending waypoints to simulator ...
+waypoint transition
+target position [-130, -182, 10, 0]
+waypoint transition
+target position [-132, -180, 8, 0]
+waypoint transition
+target position [-132, -180, 5, 0]
+Replan:  False (184, 265, 6) (145, 303, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-171, -142, 5, 0]
+Replan:  False (145, 303, 5) (145, 308, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-171, -137, 5, 0]
+Replan:  False (144, 308, 5) (150, 313, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-166, -132, 5, 0]
+Replan:  False (149, 312, 5) (155, 313, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-161, -132, 5, 0]
+Replan:  True (154, 314, 5) (190, 348, 5)
+Local Start and Goal:  (154, 314, 5) (157, 317, 5)
+Voxel Start and Goal:  (154, 314, 5) (157, 317, 5)
+Found a path.
+Path Search Time: 0.3285176999999919s
+Path Len: 4, Pruned Path Len: 4
+Sending waypoints to simulator ...
+waypoint transition
+target position [-160, -131, 5, 0]
+waypoint transition
+target position [-158, -129, 5, 0]
+waypoint transition
+target position [-159, -128, 5, 0]
+Replan:  False (158, 316, 5) (190, 348, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-126, -97, 5, 0]
+Replan:  False (190, 348, 5) (190, 363, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-126, -82, 5, 0]
+Replan:  False (191, 363, 5) (95, 458, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-221, 13, 5, 0]
+Replan:  False (95, 458, 5) (91, 458, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-225, 13, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22397313e+02  3.77904545e+01  5.80000000e-02], local position [-2.24996628e+02  1.25602474e+01 -3.54700312e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 100.90329219999998s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22397312e+02  3.77904545e+01  1.01000000e-01], local position [-2.24692489e+02  1.39337463e+01 -1.01000000e-01]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (91, 459, 5) (66, 564, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.004151200000023891s
+Path Len: 26, Pruned Path Len: 9
+[[-225, 14, 5, 0], [-235, 24, 5, 0], [-235, 29, 5, 0], [-245, 39, 5, 0], [-245, 54, 5, 0], [-265, 74, 5, 0], [-265, 99, 5, 0], [-250, 114, 5, 0], [-250, 119, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+Replan:  False (91, 459, 5) (81, 469, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-225, 14, 5, 0]
+waypoint transition
+target position [-235, 24, 5, 0]
+Replan:  False (82, 468, 5) (81, 474, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-235, 29, 5, 0]
+Replan:  False (80, 475, 5) (71, 484, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-245, 39, 5, 0]
+Replan:  False (72, 483, 5) (71, 499, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-245, 54, 5, 0]
+Replan:  True (70, 498, 5) (51, 519, 5)
+Local Start and Goal:  (70, 498, 5) (54, 516, 5)
+Voxel Start and Goal:  (70, 498, 5) (54, 516, 5)
+Found a path.
+Path Search Time: 2.044345099999987s
+Path Len: 11, Pruned Path Len: 3
+Sending waypoints to simulator ...
+waypoint transition
+target position [-262, 69, 5, 0]
+waypoint transition
+target position [-262, 71, 5, 0]
+Replan:  False (53, 515, 5) (51, 519, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-265, 74, 5, 0]
+Replan:  False (51, 518, 5) (51, 544, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-265, 99, 5, 0]
+Replan:  False (51, 544, 5) (66, 559, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-250, 114, 5, 0]
+Replan:  False (66, 559, 5) (66, 564, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-250, 119, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22396108e+02  3.77902278e+01  1.80000000e-02], local position [-2.50289001e+02  1.19577003e+02 -1.89210922e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 38.032564500000035s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22396108e+02  3.77902273e+01  9.20000000e-02], local position [-2.49216635e+02  1.20044464e+02 -9.20000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (67, 565, 5) (215, 496, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.009859199999993962s
+Path Len: 42, Pruned Path Len: 9
+[[-249, 120, 5, 0], [-244, 120, 5, 0], [-199, 165, 5, 0], [-174, 165, 5, 0], [-104, 95, 5, 0], [-104, 55, 5, 0], [-102, 53, 5, 0], [-102, 52, 5, 0], [-101, 51, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+Replan:  False (67, 565, 5) (72, 565, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-249, 120, 5, 0]
+waypoint transition
+target position [-244, 120, 5, 0]
+Replan:  False (71, 565, 5) (117, 610, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-199, 165, 5, 0]
+Replan:  False (116, 609, 5) (142, 610, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-174, 165, 5, 0]
+Replan:  True (142, 610, 5) (212, 540, 5)
+Local Start and Goal:  (142, 610, 5) (147, 605, 5)
+Voxel Start and Goal:  (142, 610, 5) (147, 605, 5)
+Found a path.
+Path Search Time: 0.524341599999957s
+Path Len: 5, Pruned Path Len: 5
+Sending waypoints to simulator ...
+waypoint transition
+target position [-172, 163, 5, 0]
+waypoint transition
+target position [-170, 163, 5, 0]
+waypoint transition
+target position [-168, 161, 5, 0]
+waypoint transition
+target position [-169, 160, 5, 0]
+Replan:  True (148, 606, 5) (212, 540, 5)
+Local Start and Goal:  (148, 606, 5) (197, 555, 5)
+Voxel Start and Goal:  (148, 606, 5) (197, 555, 5)
+Found a path.
+Path Search Time: 3.1789128000000346s
+Path Len: 27, Pruned Path Len: 3
+Sending waypoints to simulator ...
+waypoint transition
+target position [-118, 111, 5, 0]
+waypoint transition
+target position [-119, 110, 5, 0]
+Replan:  False (198, 554, 5) (212, 540, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-104, 95, 5, 0]
+Replan:  False (212, 540, 5) (212, 500, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-104, 55, 5, 0]
+Replan:  False (212, 500, 5) (214, 498, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-102, 53, 5, 0]
+Replan:  False (213, 497, 5) (214, 497, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-102, 52, 5, 0]
+Replan:  False (214, 497, 5) (215, 496, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-101, 51, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22396883e+02  3.77915721e+01 -4.60000000e-02], local position [-1.00925919e+02  5.06530876e+01  4.69429567e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 54.706546s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-122.3968867   37.7915728    0.242    ], local position [-100.37628564   50.53609001   -0.242     ]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (216, 496, 5) (281, 423, 5)
+0.0 0.0
+Found a path.
+Path Search Time: 0.02638650000000098s
+Path Len: 35, Pruned Path Len: 11
+[[-100, 51, 5, 0], [-100, 36, 5, 0], [-125, 11, 5, 0], [-125, -9, 5, 0], [-90, -44, 5, 0], [-70, -44, 5, 0], [-50, -24, 5, 0], [-39, -24, 5, 0], [-38, -23, 5, 0], [-36, -23, 5, 0], [-35, -22, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+Replan:  False (216, 496, 5) (216, 481, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-100, 51, 5, 0]
+waypoint transition
+target position [-100, 36, 5, 0]
+Replan:  True (216, 481, 5) (191, 456, 5)
+Local Start and Goal:  (216, 481, 5) (191, 456, 31)
+Voxel Start and Goal:  (216, 481, 5) (191, 456, 31)
+Found a path.
+Path Search Time: 1.4701810999999907s
+Path Len: 17, Pruned Path Len: 6
+Sending waypoints to simulator ...
+waypoint transition
+target position [-118, 18, 23, 0]
+waypoint transition
+target position [-118, 12, 29, 0]
+waypoint transition
+target position [-120, 12, 31, 0]
+waypoint transition
+target position [-124, 12, 31, 0]
+waypoint transition
+target position [-125, 11, 31, 0]
+Replan:  True (192, 457, 31) (191, 436, 5)
+Local Start and Goal:  (192, 457, 31) (191, 436, 31)
+Voxel Start and Goal:  (192, 457, 31) (191, 436, 31)
+Found a path.
+Path Search Time: 1.1002333999999792s
+Path Len: 12, Pruned Path Len: 3
+Sending waypoints to simulator ...
+waypoint transition
+target position [-124, -8, 31, 0]
+waypoint transition
+target position [-125, -9, 31, 0]
+Replan:  True (192, 436, 31) (226, 401, 5)
+Local Start and Goal:  (192, 436, 31) (217, 410, 5)
+Voxel Start and Goal:  (192, 436, 31) (217, 410, 5)
+Found a path.
+Path Search Time: 7.3870558000000415s
+Path Len: 27, Pruned Path Len: 12
+Sending waypoints to simulator ...
+waypoint transition
+target position [-104, -29, 31, 0]
+waypoint transition
+target position [-102, -29, 31, 0]
+waypoint transition
+target position [-100, -31, 31, 0]
+waypoint transition
+target position [-98, -31, 29, 0]
+waypoint transition
+target position [-98, -31, 21, 0]
+waypoint transition
+target position [-98, -33, 19, 0]
+waypoint transition
+target position [-98, -33, 11, 0]
+waypoint transition
+target position [-98, -35, 9, 0]
+waypoint transition
+target position [-98, -35, 7, 0]
+waypoint transition
+target position [-99, -35, 6, 0]
+waypoint transition
+target position [-99, -35, 5, 0]
+Replan:  False (218, 410, 6) (226, 401, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-90, -44, 5, 0]
+Replan:  False (226, 401, 5) (246, 401, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-70, -44, 5, 0]
+Replan:  False (245, 401, 5) (266, 421, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-50, -24, 5, 0]
+Replan:  False (266, 421, 5) (277, 421, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-39, -24, 5, 0]
+Replan:  False (276, 422, 5) (278, 422, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-38, -23, 5, 0]
+Replan:  False (277, 421, 5) (280, 422, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-36, -23, 5, 0]
+Replan:  False (279, 421, 5) (281, 423, 5)
+Path Len: 2, Pruned Path Len: 2
+Sending waypoints to simulator ...
+waypoint transition
+target position [-35, -22, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-122.3976987   37.7921666    3.046    ], local position [-34.87112808 -21.81449699  -3.04609299]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 73.43058049999996s

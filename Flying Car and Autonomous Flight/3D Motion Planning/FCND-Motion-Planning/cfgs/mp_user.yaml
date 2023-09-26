@@ -1,0 +1,45 @@
+common_p:
+  seed: 359             # Random seed for reproducibility
+  port: 5760
+  host: 127.0.0.1       # Host address, i.e. '127.0.0.1
+  safety_dist: 5
+  target_altitude: 5
+  debug_algo: False     # Run only motion planning without simulator env
+  offline_mp: True      # Run motion planning outside of drone thread for speedup vs inline path planning
+
+grid:
+  h_type: norm          # Heuristics type: norm/manh
+
+med_axis:
+  h_type: norm          # Heuristics type: norm/manh
+
+prob_map:
+  n_nodes: 10000        # No of random nodes
+  n_neigh: 10           # No of nearest neighbors to check for connectivity in graph creation
+  kd_query: nn          # rad: Query KDTree for neighbors within radius, nn: Query KDTree for k nearest neighbors
+  kd_neigh: 5           # Query KDTree for 'kd_neigh' nearest neighbors
+
+vox_map:
+  h_type: norm          # Heuristics type: norm/manh
+  voxel_size: 5
+
+reced_horz:
+  h_type: norm          # Heuristics type: norm/manh
+  lr_altitude: 50       # Altitude for low resolution grid map
+  lr_search_step: 5     # Search step size for low resolution grid map
+  search_step: 2        # Altitude for high resolution 3D search
+
+rrt:
+  algo: ['rrt_star_bi']     # RRT: rrt, RRT Connect: rrt_connect, RRT*: rrt_star, RRT* Bidirectional: rrt_star_bi
+  dt: 8                 # Time increments
+  n_samples: 4000       # No of samples to generate vertices/edges
+  min_samples: 500      # Min no of samples to check connection to goal
+  min_dist: 2           # Min distance between the two tree nodes to connect for RRT-Connect and between nearest node and goal for RRT/RRT*
+  n_neighbors: 16       # No of neighbors for RRT*
+
+debug_p:
+  plt: False             # Plot grid
+  plt_local: False      # Plot grid in local grid or global lat/lon range
+  plt_voxm: False       # Plot voxmap
+  save_plt: True        # Save plots if true else display
+  vis_dir: images/mp_1/offline_mp

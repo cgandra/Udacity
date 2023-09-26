@@ -1,0 +1,338 @@
+North offset = -316, east offset = -445
+North offset = -316, east offset = -445
+RRT Algo:  rrt_star
+Motion Planner Setup Time: 0.3860224s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.39745   37.79248    0.     ], position [-1.22397450e+02  3.77924791e+01  1.20000000e-01], local position [-0.09991147 -0.008161   -0.12      ]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (316, 445, 5) (381, 308, 5)
+RRT:  0.0 0.0
+Found goal in 2858 samples
+Generate RRT time: 30.6294484s
+Found a path.
+Path Search Time: 30.639915900000002s
+Path Len: 13, Pruned Path Len: 13
+[[0, 0, 5, 0], [62, -12, 5, 0], [79, -16, 5, 0], [86, -20, 5, 0], [95, -27, 5, 0], [102, -35, 5, 0], [105, -51, 5, 0], [109, -70, 5, 0], [112, -107, 5, 0], [113, -125, 5, 0], [110, -142, 5, 0], [70, -143, 5, 0], [65, -137, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [0, 0, 5, 0]
+waypoint transition
+target position [62, -12, 5, 0]
+waypoint transition
+target position [79, -16, 5, 0]
+waypoint transition
+target position [86, -20, 5, 0]
+waypoint transition
+target position [95, -27, 5, 0]
+waypoint transition
+target position [102, -35, 5, 0]
+waypoint transition
+target position [105, -51, 5, 0]
+waypoint transition
+target position [109, -70, 5, 0]
+waypoint transition
+target position [112, -107, 5, 0]
+waypoint transition
+target position [113, -125, 5, 0]
+waypoint transition
+target position [110, -142, 5, 0]
+waypoint transition
+target position [70, -143, 5, 0]
+waypoint transition
+target position [65, -137, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22398999e+02  3.77930660e+01  4.90000000e-02], local position [ 6.50681992e+01 -1.37361725e+02 -4.95894365e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 74.4029226s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22398997e+02  3.77930674e+01  2.50000000e-02], local position [ 6.42527101e+01 -1.36325505e+02 -2.50000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (380, 309, 5) (277, 190, 5)
+RRT:  0.0 0.0
+Found goal in 978 samples
+Generate RRT time: 7.141161799999992s
+Found a path.
+Path Search Time: 7.155434900000003s
+Path Len: 10, Pruned Path Len: 10
+[[64, -136, 5, 0], [34, -135, 5, 0], [-52, -119, 5, 0], [-79, -114, 5, 0], [-119, -118, 5, 0], [-137, -142, 5, 0], [-153, -169, 5, 0], [-173, -193, 5, 0], [-161, -244, 5, 0], [-39, -255, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [64, -136, 5, 0]
+waypoint transition
+target position [34, -135, 5, 0]
+waypoint transition
+target position [-52, -119, 5, 0]
+waypoint transition
+target position [-79, -114, 5, 0]
+waypoint transition
+target position [-119, -118, 5, 0]
+waypoint transition
+target position [-137, -142, 5, 0]
+waypoint transition
+target position [-153, -169, 5, 0]
+waypoint transition
+target position [-173, -193, 5, 0]
+waypoint transition
+target position [-161, -244, 5, 0]
+waypoint transition
+target position [-39, -255, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22400320e+02  3.77921239e+01  3.70000000e-02], local position [-3.96140366e+01 -2.54854156e+02 -3.70428562e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 70.36418269999999s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22400322e+02  3.77921232e+01  4.50000000e-02], local position [-4.12551361e+01 -2.52321576e+02 -4.50000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (275, 193, 5) (91, 458, 5)
+RRT:  0.0 0.0
+Found goal in 660 samples
+Generate RRT time: 5.215195100000017s
+Found a path.
+Path Search Time: 5.218938799999989s
+Path Len: 9, Pruned Path Len: 9
+[[-41, -252, 5, 0], [-29, -255, 5, 0], [-17, -214, 5, 0], [-17, -191, 5, 0], [-16, -128, 5, 0], [-81, -112, 5, 0], [-106, -84, 5, 0], [-126, -67, 5, 0], [-225, 13, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-41, -252, 5, 0]
+waypoint transition
+target position [-29, -255, 5, 0]
+waypoint transition
+target position [-17, -214, 5, 0]
+waypoint transition
+target position [-17, -191, 5, 0]
+waypoint transition
+target position [-16, -128, 5, 0]
+waypoint transition
+target position [-81, -112, 5, 0]
+waypoint transition
+target position [-106, -84, 5, 0]
+waypoint transition
+target position [-126, -67, 5, 0]
+waypoint transition
+target position [-225, 13, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22397311e+02  3.77904594e+01  4.60000000e-02], local position [-2.24562149e+02  1.26594048e+01 -4.63121682e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 68.9573814s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22397309e+02  3.77904596e+01  9.70000000e-02], local position [-2.24125283e+02  1.41414135e+01 -9.70000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (92, 459, 5) (66, 564, 5)
+RRT:  0.0 0.0
+Found goal in 500 samples
+Generate RRT time: 3.374718900000005s
+Found a path.
+Path Search Time: 3.375633999999991s
+Path Len: 6, Pruned Path Len: 6
+[[-224, 14, 5, 0], [-260, 65, 5, 0], [-261, 73, 5, 0], [-263, 105, 5, 0], [-248, 119, 5, 0], [-250, 119, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-224, 14, 5, 0]
+waypoint transition
+target position [-260, 65, 5, 0]
+waypoint transition
+target position [-261, 73, 5, 0]
+waypoint transition
+target position [-263, 105, 5, 0]
+waypoint transition
+target position [-248, 119, 5, 0]
+waypoint transition
+target position [-250, 119, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22396119e+02  3.77902248e+01  2.90000000e-02], local position [-2.50619827e+02  1.18630470e+02 -2.97079720e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 32.07377219999995s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22396117e+02  3.77902245e+01  6.00000000e-02], local position [-2.49532185e+02  1.19289257e+02 -6.00000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (66, 564, 5) (215, 496, 5)
+RRT:  0.0 0.0
+Found goal in 500 samples
+Generate RRT time: 3.4669316000000094s
+Found a path.
+Path Search Time: 3.4694599999999696s
+Path Len: 9, Pruned Path Len: 9
+[[-250, 119, 5, 0], [-202, 161, 5, 0], [-185, 169, 5, 0], [-178, 167, 5, 0], [-155, 153, 5, 0], [-137, 138, 5, 0], [-96, 81, 5, 0], [-94, 45, 5, 0], [-101, 51, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-250, 119, 5, 0]
+waypoint transition
+target position [-202, 161, 5, 0]
+waypoint transition
+target position [-185, 169, 5, 0]
+waypoint transition
+target position [-178, 167, 5, 0]
+waypoint transition
+target position [-155, 153, 5, 0]
+waypoint transition
+target position [-137, 138, 5, 0]
+waypoint transition
+target position [-96, 81, 5, 0]
+waypoint transition
+target position [-94, 45, 5, 0]
+waypoint transition
+target position [-101, 51, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-1.22396883e+02  3.77915733e+01  2.30000000e-02], local position [-1.00793663e+02  5.06854820e+01 -2.37596482e-02]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 48.051691800000015s
+Offline Mode planning
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+global home [-122.3974533   37.7924804    0.       ], position [-1.22396884e+02  3.77915736e+01 -5.40000000e-02], local position [-1.00285822e+02  5.07996568e+01  5.40000000e-02]
+disarm transition
+manual transition
+Closing connection ...
+Local Start and Goal:  (216, 496, 5) (281, 423, 5)
+RRT:  0.0 0.0
+Found goal in 1548 samples
+Generate RRT time: 14.036922000000004s
+Found a path.
+Path Search Time: 14.065380699999992s
+Path Len: 27, Pruned Path Len: 27
+[[-100, 51, 5, 0], [-108, 77, 5, 0], [-113, 89, 5, 0], [-116, 104, 5, 0], [-120, 119, 5, 0], [-129, 141, 5, 0], [-139, 156, 5, 0], [-148, 178, 5, 0], [-151, 184, 5, 0], [-126, 225, 5, 0], [-113, 233, 5, 0], [-94, 236, 5, 0], [-76, 238, 5, 0], [-61, 233, 5, 0], [-46, 224, 5, 0], [-34, 217, 5, 0], [-23, 207, 5, 0], [-2, 193, 5, 0], [13, 181, 5, 0], [51, 142, 5, 0], [72, 115, 5, 0], [71, 79, 5, 0], [64, 66, 5, 0], [47, 33, 5, 0], [30, -10, 5, 0], [15, -26, 5, 0], [-35, -22, 5, 0]]
+Logs\TLog.txt
+Logs\NavLog.txt
+starting connection
+arming transition
+Searching for a path ...
+Sending waypoints to simulator ...
+takeoff transition
+waypoint transition
+target position [-100, 51, 5, 0]
+waypoint transition
+target position [-108, 77, 5, 0]
+waypoint transition
+target position [-113, 89, 5, 0]
+waypoint transition
+target position [-116, 104, 5, 0]
+waypoint transition
+target position [-120, 119, 5, 0]
+waypoint transition
+target position [-129, 141, 5, 0]
+waypoint transition
+target position [-139, 156, 5, 0]
+waypoint transition
+target position [-148, 178, 5, 0]
+waypoint transition
+target position [-151, 184, 5, 0]
+waypoint transition
+target position [-126, 225, 5, 0]
+waypoint transition
+target position [-113, 233, 5, 0]
+waypoint transition
+target position [-94, 236, 5, 0]
+waypoint transition
+target position [-76, 238, 5, 0]
+waypoint transition
+target position [-61, 233, 5, 0]
+waypoint transition
+target position [-46, 224, 5, 0]
+waypoint transition
+target position [-34, 217, 5, 0]
+waypoint transition
+target position [-23, 207, 5, 0]
+waypoint transition
+target position [-2, 193, 5, 0]
+waypoint transition
+target position [13, 181, 5, 0]
+waypoint transition
+target position [51, 142, 5, 0]
+waypoint transition
+target position [72, 115, 5, 0]
+waypoint transition
+target position [71, 79, 5, 0]
+waypoint transition
+target position [64, 66, 5, 0]
+waypoint transition
+target position [47, 33, 5, 0]
+waypoint transition
+target position [30, -10, 5, 0]
+waypoint transition
+target position [15, -26, 5, 0]
+waypoint transition
+target position [-35, -22, 5, 0]
+landing transition
+global home [-122.3974533   37.7924804    0.       ], position [-122.3977014   37.7921704    3.04     ], local position [-34.44501114 -22.06011009  -3.04008245]
+disarm transition
+manual transition
+Closing connection ...
+Drone Start To Close Elapsed Time: 96.8424326s
