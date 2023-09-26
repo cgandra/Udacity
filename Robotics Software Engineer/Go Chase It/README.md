@@ -1,8 +1,9 @@
 # Go Chase It
 Project 2 of Udacity Robotics Software Engineer Nanodegree Program
 
-<video src="[https://user-images.githubusercontent.com/169707/126715420-991ad821-9ac8-4b66-b79e-e0966e0f3a89.mp4](https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/Go%20Chase%20It/images/submit_15fps.mp4)" controls="controls" style="max-width: 480px;">
+<video src="https://github.com/cgandra/Udacity/blob/main/Robotics%20Software%20Engineer/Go%20Chase%20It/images/submit_15fps.mp4" controls="controls" style="max-width: 480px;">
 </video>
+
 
 ## Overview
 In this project, you should create two ROS packages inside your catkin_ws/src: 
