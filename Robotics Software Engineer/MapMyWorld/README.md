@@ -93,7 +93,7 @@ Directory Structure
 │   │   │   ├── package.xml                    # package info
 │   │   ├── teleop_twist_keyboard              # ROS package to send commands to the robot using keyboard or controller to help robot localize
 ├── images                                     # Video capture of result
-│   ├── submit.mp4
+│   ├── ResultTrim_git_12fps.mp4
 │   ├── *.png
 ├── files                                      # files to create catkin_ws
 ├── scripts                                    # Scripts to create & run project
